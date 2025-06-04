@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  integrity="sha512-wFU7gxH2K78HTU9LM4Ev0uV8H4u/7nmnAAmcUJGvNz/1rj8MG9Wyxy2mv8RA5qvQWhzR4sOZfWQfPa8Rg41fjQ=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
+  <title>Colégio Píncaro - Página inicial</title>
+
+</head>
+<body>
+  <header>
+    <a href="../pagina-inicial/index.html"><div class="logo"><img src="../pagina-inicial/brasaoPincaro1.png" class="header_brasao"></img></div></a>
+    <span class="menu-icon" onclick="toggleMenu()">&#9776;</span>
+    <nav id="menu">
+      <a href="#cursos" class="menu-item">Cursos</a>
+      <a href="#contato" class="menu-item">Contato</a>
+      
+    </nav>
+  </header>
+
+ 
+   
+
+  <section class="video">
+    <h2 class="quem-somos">Fundamental 2</h2>
+    <div class="photo-content">
+      <div>foto</div>
+    </div>
+    <div class="video-container">
+      <div class="video-text">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum explicabo obcaecati, hic repudiandae, harum aperiam minima similique debitis quas quos doloremque reiciendis veniam magnam. Illo consectetur ullam odit esse accusamus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui adipisci facilis possimus aut sapiente dolor sequi consequatur veniam ea incidunt illo voluptas perspiciatis repudiandae, optio tempore explicabo debitis error ab!</p>
+      </div>
+      
+    </div>
+  </section>
+  
+
+  <section id="grades">
+    <h2 class="grade-title">Grade Curricular</h2>
+    <div class="gradesCurriculares">
+        <a href="../fundamental1/gradeCurricular/6ano.pdf" class="course" style="background-color:rgb(26, 23, 73);">1 ano</a>
+        <a href="../fundamental2/gradeCurricular/7ano.pdf" class="course" style="background-color:rgb(26, 23, 73);">2 ano</a>
+        <a href="../fundamental1/gradeCurricular/8ano.pdf" class="course" style="background-color:rgb(26, 23, 73);">3 ano</a>
+        <a href="../fundamental1/gradeCurricular/9ano.pdf" class="course" style="background-color:rgb(26, 23, 73);">4 ano</a>
+    </div>
+    <button class="courses-button" href="../material/index.html">Conheça nosso material</button>
+</section>
+
+
+<footer class="footer" id="contato">
+  <section>
+  <p><span class="icon">📞</span> Telefone</p>
+  <p><span class="icon">✉️</span> Email</p>
+  <p><span class="icon">📍</span> Localização</p>
+  <p><span class="icon">📷</span> Instagram</p>
+</section>
+
+</footer>
+
+
+
+
+
+
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('menu');
+      menu.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
